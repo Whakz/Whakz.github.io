@@ -11,8 +11,8 @@
     <p>Learning PWA sample website</p>
 </body>
 <script>
-    if ("serviceworker" = navigator) {
-      navigator.serviceWorker.register("serviceworker");  
+    if ("serviceworker" in navigator) {
+      navigator.serviceWorker.register("serviceworker.js");  
     } 
 </script>
 </html>
