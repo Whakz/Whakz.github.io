@@ -1,11 +1,12 @@
 {
-    "name": "JC",
-    "short_name": "JC",
+    "name": "Joaquin App",
+    "short_name": "Joaquin App",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "red",
     "background_color": "blue",
     "description": "Kahit ano",
+    "serviceworker":"serviceworker.js",
     "icons": [
       {
         "src": "images/icon-192.png",
