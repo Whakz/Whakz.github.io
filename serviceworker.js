@@ -7,6 +7,7 @@ const urlsToCache = [
     "images/icon-192.png",
     "images/icon-512-maskable.png",
     "images/icon-512.png"
+    
   ];
    
   self.addEventListener("install", (event) => {
